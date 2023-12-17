@@ -5,7 +5,7 @@ institute: university
 date: date of presentation (e.g., 09/13/2023)
 footer: <a href="https://website.com">website.com</a>
 format:
-  englelab-revealjs: default
+  standard-revealjs: default
   revealjs: default
 bibliography: references.bib
 ---
