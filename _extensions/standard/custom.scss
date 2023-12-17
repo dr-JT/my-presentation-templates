@@ -9,10 +9,10 @@ $presentation-font-smaller: 0.8 !default;
 $presentation-line-height: 1.3 !default;
 
 // color variables
-$color-primary: #32568d !default;
-$color-secondary: #32568d !default;
-$color-secondary-light: #91302a !default;
-$color-emphasis: #91302a !default;
+$color-primary: #204F7C !default;
+$color-secondary: #204F7C !default;
+$color-secondary-light: #A53229 !default;
+$color-emphasis: #A53229 !default;
 
 // main colors
 $heading-color: $color-primary !default;
@@ -39,15 +39,16 @@ $presentation-h3-font-size: 1em !default;
 .reveal .footer > * {
   vertical-align: middle !important;
   text-align: center !important;
-  font-size: 1.6em !important;
+  font-size: 1.2em !important;
   font-weight: 300 !important;
   font-style: $font-family-sans-serif;
+  color: #FFFFFF !important;
 }
 
 .reveal .progress {
   background-color: transparent;
 	color: $color-secondary-light;
-	height: 10px;
+	height: 6px;
 	padding-bottom: 40px;
 }
 
@@ -61,7 +62,7 @@ $presentation-h3-font-size: 1em !default;
   color: #FFFFFF !important;
   text-align: center !important;
   vertical-align: center !important;
-  background-color: $color-emphasis !important;
+  background-color: $color-primary !important;
   font-size: 1em;
   font-weight: 600;
   height: 35px;

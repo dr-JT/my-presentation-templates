@@ -3,7 +3,6 @@ title: "presentation title use \n\n to break title onto different lines"
 author: name
 institute: university
 date: date of presentation (e.g., 09/13/2023)
-footer: <a href="https://website.com">website.com</a>
 format:
   standard-revealjs: default
   revealjs: default
